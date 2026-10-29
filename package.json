@@ -1,0 +1,9 @@
+{
+  "name": "gerador-landing-pages",
+  "private": true,
+  "description": "Gera landing pages a partir de um demo.json, com validador de contraste, links e desempenho.",
+  "scripts": {
+    "exemplo": "node construir.js padaria-vila-aurora --estrito"
+  },
+  "engines": { "node": ">=18" }
+}

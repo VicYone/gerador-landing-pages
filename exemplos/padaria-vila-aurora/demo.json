@@ -1,0 +1,146 @@
+{
+  "slug": "padaria-vila-aurora",
+  "arquivo": "padaria-vila-aurora",
+  "nome": "Padaria Vila Aurora",
+  "wa": "5511900000000",
+  "titulo": "Padaria Vila Aurora — pão de fermentação natural e encomendas | Peça pelo WhatsApp",
+  "descricao": "Padaria de bairro fictícia, usada como exemplo do gerador: pães de fermentação natural, bolos por encomenda e café da manhã. Peça pelo WhatsApp.",
+  "canonical": "https://exemplo.com.br/padaria-vila-aurora/",
+  "favicon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='#2B1A10'/><text x='50' y='66' font-family='Georgia,serif' font-size='48' fill='#E8913A' text-anchor='middle'>VA</text></svg>",
+  "tema": {
+    "escuro": "#2B1A10",
+    "escuro2": "#43291A",
+    "acento": "#E8913A",
+    "acentoTexto": "#9A3412",
+    "botaoTexto": "#2B1A10",
+    "claro": "#FFF8F0",
+    "claro2": "#FBEBDA",
+    "tinta": "#2B1A10",
+    "suave": "#5C4A3D",
+    "linha": "#EAD7C3",
+    "raio": 12,
+    "topoEscuro": true,
+    "heroGrad": "rgba(43,26,16,0.96) 0%,rgba(43,26,16,0.86) 55%,rgba(67,41,26,0.9) 100%"
+  },
+  "fontes": {
+    "titulo": "\"Fraunces\",Georgia,serif",
+    "corpo": "\"Inter\",system-ui,-apple-system,\"Segoe UI\",sans-serif",
+    "import": "family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700",
+    "peso": 700
+  },
+  "marca": {
+    "tipo": "texto",
+    "linha1": "Padaria Vila Aurora",
+    "linha2": "Fermentação natural desde cedo"
+  },
+  "nav": [
+    ["#produtos", "Produtos"],
+    ["#encomendas", "Encomendas"],
+    ["#duvidas", "Dúvidas"],
+    ["#contato", "Contato"]
+  ],
+  "topoBotao": {
+    "classe": "btn-acento",
+    "icone": "wapp",
+    "label": "Pedir",
+    "href": "wa:Olá! Vim pelo site e queria fazer um pedido."
+  },
+  "hero": {
+    "img": null,
+    "imgSmall": null,
+    "alt": "",
+    "olho": "Padaria de bairro · Exemplo fictício",
+    "h1": "Pão de verdade,<br><em>saindo do forno às 6h.</em>",
+    "sub": "Fermentação natural, bolos por encomenda e café da manhã para levar. Peça pelo WhatsApp e retire sem fila.",
+    "acoes": [
+      { "classe": "btn-acento", "icone": "wapp", "label": "Pedir pelo WhatsApp", "href": "wa:Olá! Vim pelo site e queria fazer um pedido." },
+      { "classe": "btn-claro", "label": "Ver produtos", "href": "#produtos" }
+    ],
+    "numeros": [
+      ["6h", "primeira fornada"],
+      ["48h", "de fermentação"],
+      ["Encomendas", "com 1 dia de antecedência"]
+    ]
+  },
+  "confirmar": [
+    "Este é um exemplo fictício: troque nome, WhatsApp, produtos e textos pelos do negócio real.",
+    "Horário de funcionamento e endereço entram na seção Contato e no JSON-LD.",
+    "Fotos próprias dos produtos: o exemplo sai sem imagem de propósito."
+  ],
+  "secoes": [
+    {
+      "tipo": "cards",
+      "id": "produtos",
+      "olho": "Produtos",
+      "h2": "O que sai do <em>nosso forno</em>",
+      "p": "Toque no produto e a conversa no WhatsApp já começa com o pedido certo.",
+      "itens": [
+        { "h3": "Pão de fermentação natural", "p": "Casca crocante e miolo úmido, com 48 horas de fermentação.", "tags": ["integral", "tradicional"], "linkLabel": "Pedir pão", "href": "wa:Olá! Queria pedir pão de fermentação natural." },
+        { "h3": "Bolos por encomenda", "p": "Cenoura com chocolate, fubá, laranja e o bolo do dia. Encomende com um dia de antecedência.", "tags": ["encomenda"], "linkLabel": "Encomendar bolo", "href": "wa:Olá! Queria encomendar um bolo." },
+        { "h3": "Café da manhã para levar", "p": "Pão na chapa, café coado e suco, prontos na hora marcada.", "tags": ["para levar"], "linkLabel": "Pedir café da manhã", "href": "wa:Olá! Queria pedir um café da manhã para levar." }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "id": "encomendas",
+      "olho": "Encomendas",
+      "h2": "Seu pedido em <em>três passos</em>",
+      "itens": [
+        { "h3": "Chame no WhatsApp", "p": "Toque em qualquer botão do site: a mensagem já vai pronta." },
+        { "h3": "Diga o que quer", "p": "Produto, quantidade e o dia em que vai retirar." },
+        { "h3": "Retire sem fila", "p": "Seu pedido fica separado no balcão, no horário combinado." }
+      ],
+      "nota": "<b>Encomendas:</b> pelo <a href=\"wa:Olá! Queria fazer uma encomenda.\" target=\"_blank\" rel=\"noopener\">WhatsApp</a>, com um dia de antecedência."
+    },
+    {
+      "tipo": "faq",
+      "id": "duvidas",
+      "olho": "Dúvidas",
+      "h2": "Antes de <em>fazer o pedido</em>",
+      "itens": [
+        { "q": "Vocês entregam?", "r": "Neste exemplo, só retirada no balcão. O pedido fica separado no horário combinado." },
+        { "q": "Com quanto tempo de antecedência encomendo um bolo?", "r": "Um dia antes. Para festas, peça com três dias." },
+        { "q": "O pão de fermentação natural tem fermento químico?", "r": "Não. Ele leva só farinha, água, sal e o fermento natural da casa." }
+      ]
+    },
+    {
+      "tipo": "contato",
+      "id": "contato",
+      "olho": "Contato",
+      "h2": "Fale com a <em>Vila Aurora</em>",
+      "caixa1": {
+        "h3": "Canais",
+        "canais": [
+          { "icone": "wapp", "b": "WhatsApp", "span": "pedidos e encomendas", "href": "wa:Olá! Vim pelo site da Padaria Vila Aurora." }
+        ]
+      },
+      "caixa2": {
+        "h3": "Para o seu pedido",
+        "itens": [
+          { "b": "Diga o produto", "span": "e a quantidade" },
+          { "b": "Escolha o horário", "span": "de retirada" },
+          { "b": "Retire no balcão", "span": "sem enfrentar fila" }
+        ],
+        "botao": { "classe": "btn-acento", "icone": "wapp", "label": "Pedir pelo WhatsApp", "href": "wa:Olá! Queria fazer um pedido." }
+      }
+    }
+  ],
+  "rodape": {
+    "colunas": [
+      { "p": "Padaria de bairro fictícia, criada para demonstrar o gerador de landing pages." },
+      { "h4": "Produtos", "itens": ["<a href=\"#produtos\">Pães</a>", "<a href=\"#produtos\">Bolos</a>", "<a href=\"#produtos\">Café da manhã</a>"] },
+      { "h4": "Contato", "itens": ["<a href=\"wa:\" target=\"_blank\" rel=\"noopener\">WhatsApp</a>", "Retirada no balcão"] }
+    ],
+    "fim": ["Exemplo fictício"]
+  },
+  "barra": [
+    { "classe": "btn-acento", "icone": "wapp", "label": "Pedir", "href": "wa:Olá! Vim pelo site e queria fazer um pedido." },
+    { "classe": "btn-linha", "label": "Produtos", "href": "#produtos" }
+  ],
+  "flutuante": { "label": "Pedir pelo WhatsApp", "href": "wa:Olá! Vim pelo site e queria fazer um pedido." },
+  "ldjson": {
+    "@context": "https://schema.org",
+    "@type": "Bakery",
+    "description": "Padaria fictícia de exemplo: pães de fermentação natural, bolos por encomenda e café da manhã."
+  }
+}
